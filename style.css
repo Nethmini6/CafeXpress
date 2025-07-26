@@ -110,6 +110,7 @@ header{
     grid-template-columns: 1fr 1fr;
     align-items: center;
     gap: 1.5rem;
+    padding-top: 200px;
 }
 .home-text h1{
     font-size: 3.4rem;
@@ -137,10 +138,12 @@ header{
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(17rem,auto));
     gap: 1.5rem;
+    scroll-margin-top: 200px;
 
 }
 .about-img img{
     border-radius: 1.8rem;
+    img
 }
 .about-text h2{
     font-size: 1.8rem;
