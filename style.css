@@ -47,6 +47,7 @@ header{
 .navbar{
     display: flex;
 }
+
 .navbar a{
     padding: 8px 17px;
     color: var(--bg-color);
@@ -143,12 +144,14 @@ header{
 }
 .about-img img{
     border-radius: 1.8rem;
-    img
+    
 }
-.about-text h2{
+.about-text h2 {
     font-size: 1.8rem;
     text-transform: uppercase;
-} 
+}
+
+
 about-text p{
     font-size: 0.938rem;
     margin: 0.5rem 0 1.1rem;
