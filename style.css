@@ -355,17 +355,17 @@ header{
   background-color: #5a3e2b;
 }
 
-
+/*login
 body {
     font-family: Arial, sans-serif;
-    background: url('img/loginnew2.jpg') no-repeat center center/cover;
+    
     background-size: cover;
     background-attachment: fixed;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    margin: 0;
+    margin: 0;*/
     
 }
 
@@ -428,5 +428,63 @@ button:hover {
 
 .signup-text a:hover {
     text-decoration: underline;
+}
+
+
+/*signup
+body {
+    font-family: Arial, sans-serif;
+    background: url('img/loginnew2.jpg') no-repeat center center/cover;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;*/
+    
+}
+
+.signup-container {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+h2 {
+    color: #5d4037;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+label {
+    font-size: 14px;
+    color: #5d4037;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #8d6e63;
+    color: white;
+    padding: 10px;
+    border: none;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
 }
 
