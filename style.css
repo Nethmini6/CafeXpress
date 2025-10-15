@@ -42,7 +42,11 @@ header{
     background-color: var(--text-color);
 }
 .logo img{
-    width: 80px;
+    width: 60px;
+}
+.logo h1{
+    font-size: 20px;
+    color: #8d6e63;
 }
 .navbar{
     display: flex;
